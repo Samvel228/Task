@@ -1,0 +1,154 @@
+body {
+	font-family: 'Montserrat';
+	max-width: 1400px;
+	margin: auto;
+}
+
+.post__title{
+	font-size: 24px;
+	color: #384758;
+}
+
+.posts__title{
+	margin-top: 0px;
+	color: #384758;
+	font-size: 48px;
+}
+
+.actual-posts{
+	display: flex;
+}
+
+.actual-posts__dots{
+	flex: 15%;
+	display: inline-block;
+	margin-right: 45px;
+	position: relative;
+	top: 200px;
+}
+
+.actual-posts__quotes{
+	flex: 10%;
+	margin-right: 20px;
+}
+
+.actual-posts__posts{
+	flex: 75%;
+}
+
+.slider{
+	position: relative;
+}
+
+.slider__scroll{
+	display: flex;
+	overflow: hidden;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.slider__decor {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	z-index: -1;
+}
+
+.blogger{
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.blogger__container{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.blogger__img{
+	width: 290px;
+	height: 320px;
+	margin-bottom: 19px;
+}
+
+.blogger__name{
+	text-align: left;
+	font-size: 24px;
+	color: #384758;
+}
+
+.blogger__company{
+	font-size: 18px;
+	color: #606F81;
+	margin-bottom: 51px;
+}
+
+.blogger__dedicated-img{
+	position: relative;
+}
+
+.blogger__dedicated-img::after{
+	content:'';
+	position: absolute;
+	width:290px;
+	bottom: 22px;
+	height: 2px;
+	left: 0px;
+	background-color: #FE8700;
+}
+
+.blogger__dedicated-text{
+	color: #FE8700 !important;
+}
+
+.buttons{
+	display: flex;
+}
+
+.buttons__left-button{
+	margin-left: auto;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background: url(./svg/left_button.svg) 50% 50% no-repeat;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+	border: none;
+	cursor: pointer;
+}
+
+.buttons__right-button{
+	margin-right: auto;
+	margin-left: 10px;
+	max-width: 96px;
+	max-height: 48px;
+	background: url(./svg/right_button.svg) 50% 50% no-repeat;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+	border: none;
+	cursor: pointer;
+}
+
+.header{
+}
+
+.header__title{
+	color: #384758;
+	font-size: 48px;
+	text-align: center;
+}
+
+
+.header__subtitle{
+	font-size: 18px;
+	color: #606F81;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+@font-face{
+	font-family: "Poppins"; 
+	src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
